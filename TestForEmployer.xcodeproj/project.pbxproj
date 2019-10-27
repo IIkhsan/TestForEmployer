@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F214C3352363992700A423EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F214C3342363992700A423EC /* AppDelegate.swift */; };
-		F214C3392363992700A423EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F214C3382363992700A423EC /* ViewController.swift */; };
+		F214C3392363992700A423EC /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F214C3382363992700A423EC /* DevicesViewController.swift */; };
 		F214C33C2363992700A423EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F214C33A2363992700A423EC /* Main.storyboard */; };
 		F214C33E2363992B00A423EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F214C33D2363992B00A423EC /* Assets.xcassets */; };
 		F214C3412363992B00A423EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F214C33F2363992B00A423EC /* LaunchScreen.storyboard */; };
@@ -23,7 +23,7 @@
 /* Begin PBXFileReference section */
 		F214C3312363992700A423EC /* TestForEmployer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForEmployer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F214C3342363992700A423EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F214C3382363992700A423EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F214C3382363992700A423EC /* DevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
 		F214C33B2363992700A423EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F214C33D2363992B00A423EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F214C3402363992B00A423EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				F214C3342363992700A423EC /* AppDelegate.swift */,
-				F214C3382363992700A423EC /* ViewController.swift */,
+				F214C3382363992700A423EC /* DevicesViewController.swift */,
 				F214C35223639E4700A423EC /* Device.swift */,
 				F214C34A23639CC800A423EC /* DeviceTableViewCell.swift */,
 				F214C34823639C2100A423EC /* DevicesView.swift */,
@@ -157,7 +157,7 @@
 				F214C34923639C2100A423EC /* DevicesView.swift in Sources */,
 				F214C35123639E0100A423EC /* BluetoothManager.swift in Sources */,
 				F214C34D23639DD100A423EC /* NetworkAPI.swift in Sources */,
-				F214C3392363992700A423EC /* ViewController.swift in Sources */,
+				F214C3392363992700A423EC /* DevicesViewController.swift in Sources */,
 				F214C3352363992700A423EC /* AppDelegate.swift in Sources */,
 				F214C34B23639CC800A423EC /* DeviceTableViewCell.swift in Sources */,
 				F214C35323639E4700A423EC /* Device.swift in Sources */,

@@ -12,7 +12,18 @@ final class DeviceTableViewCell: UITableViewCell {
     
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
+        label.font = UIFont.systemFont(ofSize: 16, weight: .bold)
+        return label
+    }()
+    
+    private lazy var descriptionLabel: UILabel = {
+        let label = UILabel()
         
+        return label
+    }()
+    
+    private lazy var rssiLabel: UILabel = {
+        let label = UILabel()
         return label
     }()
     
@@ -34,6 +45,11 @@ final class DeviceTableViewCell: UITableViewCell {
     }
     
     private func makeConstraints() {
+        
+    }
+    
+    func configure(device: Device) {
+        titleLabel.text = device.name
         
     }
 }
