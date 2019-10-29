@@ -15,6 +15,9 @@ struct Device {
     var isConnected: Bool
 }
 
-//extension Device: Codable {
-//    
-//}
+extension Device: Encodable {
+    //TODO: - Encode model for send remote
+    func encode(to encoder: Encoder) throws {
+        
+    }
+}

@@ -3,37 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		F214C3352363992700A423EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F214C3342363992700A423EC /* AppDelegate.swift */; };
 		F214C3392363992700A423EC /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F214C3382363992700A423EC /* DevicesViewController.swift */; };
-		F214C33C2363992700A423EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F214C33A2363992700A423EC /* Main.storyboard */; };
 		F214C33E2363992B00A423EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F214C33D2363992B00A423EC /* Assets.xcassets */; };
-		F214C3412363992B00A423EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F214C33F2363992B00A423EC /* LaunchScreen.storyboard */; };
 		F214C34923639C2100A423EC /* DevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F214C34823639C2100A423EC /* DevicesView.swift */; };
 		F214C34B23639CC800A423EC /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F214C34A23639CC800A423EC /* DeviceTableViewCell.swift */; };
 		F214C34D23639DD100A423EC /* NetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F214C34C23639DD100A423EC /* NetworkAPI.swift */; };
 		F214C34F23639DE500A423EC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F214C34E23639DE500A423EC /* NetworkManager.swift */; };
-		F214C35123639E0100A423EC /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F214C35023639E0100A423EC /* BluetoothManager.swift */; };
 		F214C35323639E4700A423EC /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = F214C35223639E4700A423EC /* Device.swift */; };
+		F225CD622366088900C8D10B /* CellConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F225CD612366088900C8D10B /* CellConfigurator.swift */; };
+		F274E1C52366275900767E51 /* DeviceDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274E1C42366275900767E51 /* DeviceDescriptionViewController.swift */; };
+		F274E1C82366279800767E51 /* DeviceDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274E1C72366279800767E51 /* DeviceDescriptionView.swift */; };
+		F274E1CA23663B2200767E51 /* DeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274E1C923663B2200767E51 /* DeviceViewModel.swift */; };
+		F2D79F712365EA9C0073FBF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D79F702365EA9C0073FBF2 /* LaunchScreen.storyboard */; };
+		F9BBEB296597FF734AA9BF3B /* Pods_TestForEmployer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F498D365D10E978C7AE309 /* Pods_TestForEmployer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7407EBD20CF6C140C9899239 /* Pods-TestForEmployer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestForEmployer.debug.xcconfig"; path = "Target Support Files/Pods-TestForEmployer/Pods-TestForEmployer.debug.xcconfig"; sourceTree = "<group>"; };
+		D45ED76D4647378A6A5A00ED /* Pods-TestForEmployer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestForEmployer.release.xcconfig"; path = "Target Support Files/Pods-TestForEmployer/Pods-TestForEmployer.release.xcconfig"; sourceTree = "<group>"; };
 		F214C3312363992700A423EC /* TestForEmployer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForEmployer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F214C3342363992700A423EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F214C3382363992700A423EC /* DevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
-		F214C33B2363992700A423EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F214C33D2363992B00A423EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F214C3402363992B00A423EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F214C3422363992B00A423EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F214C34823639C2100A423EC /* DevicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesView.swift; sourceTree = "<group>"; };
 		F214C34A23639CC800A423EC /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
 		F214C34C23639DD100A423EC /* NetworkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPI.swift; sourceTree = "<group>"; };
 		F214C34E23639DE500A423EC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		F214C35023639E0100A423EC /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
 		F214C35223639E4700A423EC /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		F225CD612366088900C8D10B /* CellConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellConfigurator.swift; sourceTree = "<group>"; };
+		F274E1C42366275900767E51 /* DeviceDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDescriptionViewController.swift; sourceTree = "<group>"; };
+		F274E1C72366279800767E51 /* DeviceDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDescriptionView.swift; sourceTree = "<group>"; };
+		F274E1C923663B2200767E51 /* DeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewModel.swift; sourceTree = "<group>"; };
+		F2D79F702365EA9C0073FBF2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7F498D365D10E978C7AE309 /* Pods_TestForEmployer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestForEmployer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9BBEB296597FF734AA9BF3B /* Pods_TestForEmployer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A078818BCC090A64E355C0F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7407EBD20CF6C140C9899239 /* Pods-TestForEmployer.debug.xcconfig */,
+				D45ED76D4647378A6A5A00ED /* Pods-TestForEmployer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C93301F3C255FF14D18C33B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7F498D365D10E978C7AE309 /* Pods_TestForEmployer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F214C3282363992700A423EC = {
 			isa = PBXGroup;
 			children = (
 				F214C3332363992700A423EC /* TestForEmployer */,
 				F214C3322363992700A423EC /* Products */,
+				A078818BCC090A64E355C0F9 /* Pods */,
+				C93301F3C255FF14D18C33B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,19 +95,77 @@
 			isa = PBXGroup;
 			children = (
 				F214C3342363992700A423EC /* AppDelegate.swift */,
-				F214C3382363992700A423EC /* DevicesViewController.swift */,
-				F214C35223639E4700A423EC /* Device.swift */,
-				F214C34A23639CC800A423EC /* DeviceTableViewCell.swift */,
-				F214C34823639C2100A423EC /* DevicesView.swift */,
-				F214C34C23639DD100A423EC /* NetworkAPI.swift */,
-				F214C34E23639DE500A423EC /* NetworkManager.swift */,
-				F214C35023639E0100A423EC /* BluetoothManager.swift */,
-				F214C33A2363992700A423EC /* Main.storyboard */,
-				F214C33D2363992B00A423EC /* Assets.xcassets */,
-				F214C33F2363992B00A423EC /* LaunchScreen.storyboard */,
-				F214C3422363992B00A423EC /* Info.plist */,
+				F225CD63236608A400C8D10B /* SharedBusinessLogick */,
+				F274E1C62366275D00767E51 /* DeviceDescriptionViewController */,
+				F2D79F6E2365E9120073FBF2 /* DevicesModule */,
+				F2D79F6F2365E9420073FBF2 /* Supporting Files */,
 			);
 			path = TestForEmployer;
+			sourceTree = "<group>";
+		};
+		F225CD63236608A400C8D10B /* SharedBusinessLogick */ = {
+			isa = PBXGroup;
+			children = (
+				F225CD612366088900C8D10B /* CellConfigurator.swift */,
+			);
+			path = SharedBusinessLogick;
+			sourceTree = "<group>";
+		};
+		F274E1C62366275D00767E51 /* DeviceDescriptionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F274E1C42366275900767E51 /* DeviceDescriptionViewController.swift */,
+				F274E1C72366279800767E51 /* DeviceDescriptionView.swift */,
+			);
+			path = DeviceDescriptionViewController;
+			sourceTree = "<group>";
+		};
+		F2D79F6A2365E8E20073FBF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F214C34A23639CC800A423EC /* DeviceTableViewCell.swift */,
+				F214C34823639C2100A423EC /* DevicesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2D79F6B2365E8EC0073FBF2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F214C34C23639DD100A423EC /* NetworkAPI.swift */,
+				F214C34E23639DE500A423EC /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F2D79F6C2365E8F50073FBF2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F214C35223639E4700A423EC /* Device.swift */,
+				F274E1C923663B2200767E51 /* DeviceViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F2D79F6E2365E9120073FBF2 /* DevicesModule */ = {
+			isa = PBXGroup;
+			children = (
+				F214C3382363992700A423EC /* DevicesViewController.swift */,
+				F2D79F6C2365E8F50073FBF2 /* Models */,
+				F2D79F6A2365E8E20073FBF2 /* View */,
+				F2D79F6B2365E8EC0073FBF2 /* Network */,
+			);
+			path = DevicesModule;
+			sourceTree = "<group>";
+		};
+		F2D79F6F2365E9420073FBF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F214C33D2363992B00A423EC /* Assets.xcassets */,
+				F214C3422363992B00A423EC /* Info.plist */,
+				F2D79F702365EA9C0073FBF2 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F214C3452363992B00A423EC /* Build configuration list for PBXNativeTarget "TestForEmployer" */;
 			buildPhases = (
+				894F55EFB1FA0F6591002C29 /* [CP] Check Pods Manifest.lock */,
 				F214C32D2363992700A423EC /* Sources */,
 				F214C32E2363992700A423EC /* Frameworks */,
 				F214C32F2363992700A423EC /* Resources */,
+				D44F25C858317BD5F76FC8F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,50 +228,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F214C3412363992B00A423EC /* LaunchScreen.storyboard in Resources */,
 				F214C33E2363992B00A423EC /* Assets.xcassets in Resources */,
-				F214C33C2363992700A423EC /* Main.storyboard in Resources */,
+				F2D79F712365EA9C0073FBF2 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		894F55EFB1FA0F6591002C29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestForEmployer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D44F25C858317BD5F76FC8F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestForEmployer/Pods-TestForEmployer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestForEmployer/Pods-TestForEmployer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestForEmployer/Pods-TestForEmployer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F214C32D2363992700A423EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F274E1CA23663B2200767E51 /* DeviceViewModel.swift in Sources */,
 				F214C34F23639DE500A423EC /* NetworkManager.swift in Sources */,
 				F214C34923639C2100A423EC /* DevicesView.swift in Sources */,
-				F214C35123639E0100A423EC /* BluetoothManager.swift in Sources */,
+				F225CD622366088900C8D10B /* CellConfigurator.swift in Sources */,
 				F214C34D23639DD100A423EC /* NetworkAPI.swift in Sources */,
 				F214C3392363992700A423EC /* DevicesViewController.swift in Sources */,
+				F274E1C82366279800767E51 /* DeviceDescriptionView.swift in Sources */,
 				F214C3352363992700A423EC /* AppDelegate.swift in Sources */,
 				F214C34B23639CC800A423EC /* DeviceTableViewCell.swift in Sources */,
 				F214C35323639E4700A423EC /* Device.swift in Sources */,
+				F274E1C52366275900767E51 /* DeviceDescriptionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F214C33A2363992700A423EC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F214C33B2363992700A423EC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F214C33F2363992B00A423EC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F214C3402363992B00A423EC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F214C3432363992B00A423EC /* Debug */ = {
@@ -302,16 +415,18 @@
 		};
 		F214C3462363992B00A423EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7407EBD20CF6C140C9899239 /* Pods-TestForEmployer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 939KD425D9;
-				INFOPLIST_FILE = TestForEmployer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TestForEmployer/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.secret.TestForEmployer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -321,16 +436,18 @@
 		};
 		F214C3472363992B00A423EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D45ED76D4647378A6A5A00ED /* Pods-TestForEmployer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 939KD425D9;
-				INFOPLIST_FILE = TestForEmployer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TestForEmployer/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.secret.TestForEmployer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
